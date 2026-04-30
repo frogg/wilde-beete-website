@@ -241,7 +241,7 @@ h2 {
 
 .feature-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
   gap: clamp(24px, 5vw, 72px);
   align-items: stretch;
 }
@@ -268,7 +268,7 @@ h2 {
   display: grid;
   align-content: end;
   gap: 18px;
-  padding: clamp(28px, 5vw, 46px);
+  padding: clamp(20px, 3vw, 30px);
   background: var(--paper);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -283,8 +283,10 @@ h2 {
 
 .season-box strong {
   font-family: Fraunces, Georgia, serif;
-  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-size: clamp(2.4rem, 4.3vw, 4.1rem);
   line-height: 1;
+  overflow-wrap: normal;
+  text-wrap: balance;
 }
 
 .season-box p {
